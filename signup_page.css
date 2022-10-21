@@ -1,0 +1,80 @@
+body
+    {
+        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        height: 100vh;
+    }
+
+.container
+    {
+        height: 500px;
+        width: 800px;
+        border-radius: 10px;
+        position: absolute;
+        top: 125px;
+        left: 25%;
+        right: 25%;
+        background: white;
+    }
+
+h1
+    {
+        text-align: center;
+        padding-top: 35px;
+    }
+
+.first_row_container
+    {
+        display: flex;
+        position: relative;
+        top: 30px;
+    }
+
+.name_div
+    {
+        position: relative;
+        left: 80px;
+        width: 250px;
+    }
+
+.name_style
+    {
+        font-size: x-large;
+        font-weight: 400;
+    }
+
+.username_div
+    {
+        position: relative;
+        left: 190px;
+        width: 250px;
+    }
+
+.password_div
+    {
+        position: relative;
+        left: 80px;
+        top: 30px;
+        width: 250px;
+    }
+
+.confirm_password_div
+    {
+        position: relative;
+        left: 190px;
+        top: 30px;
+        width: 250px;
+    }
+
+.button
+    {
+        position:relative;
+        left: 10%;
+        top: 23%;
+        
+    }
+
+.sign_up
+    {
+        font-size: x-large;
+        width: 80%;
+    }
